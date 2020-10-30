@@ -27,6 +27,9 @@ a {
     text-align: center !important;
     margin-top: 52px !important;
   }
+  #hero h4{
+    font-size: 26px !important;
+  }
 }
 a:hover {
   color: #ffd584;
@@ -441,6 +444,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #e30a17;
 }
 
+h4,{
+  font-weight: 200;
+  margin: 0.4em 0;
+  color: white
+}
+
+#hero h4{
+  font-size: 36px;
+  color: #ef2929!important;
+  margin: 20px 0px;
+}
+.txt-rotate{
+  color: white;
+}
+.shell-blue{
+  color: #729ece!important;
+}
+.shell-white{
+  color: white;
+}
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
