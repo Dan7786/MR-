@@ -16,6 +16,7 @@ body {
 a {
   color: #e30a17;
 }
+
 @media only screen and (max-width: 600px) {
   #header .logo {
    font-size: 13px !important;
@@ -29,7 +30,20 @@ a {
   }
   #hero h4{
     font-size: 24px !important;
+    position: absolute;
   }
+}
+
+
+@keyframes blink { 
+   50% { border-color: #c2c2c2; } 
+}
+.txt-rotate .wrap { /*or other element you want*/
+  animation-name: blink ;
+  animation-duration: .3s ;
+  animation-timing-function: step-end ;
+  animation-iteration-count: infinite ;
+  animation-direction: alternate ;
 }
 a:hover {
   color: #ffd584;
