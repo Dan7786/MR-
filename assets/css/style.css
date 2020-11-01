@@ -591,7 +591,9 @@ section {
   font-family: "Poppins", sans-serif;
   color: #151515;
 }
-
+.mr-battery{
+  font-size: 16px;
+} 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -605,11 +607,11 @@ section {
   list-style: none;
   padding: 0;
 }
-.about img{
+/*.about img{
   width: 530px;
   height: 500px;
 }
-.about .content ul li {
+*/.about .content ul li {
   padding: 0 0 8px 26px;
   position: relative;
 }
@@ -836,6 +838,7 @@ section {
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: white;
   background: #e30a17;
+  color: white;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1506,7 +1509,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 28px;
+  font-size: 22px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
