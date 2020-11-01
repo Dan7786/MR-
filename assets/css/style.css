@@ -605,7 +605,10 @@ section {
   list-style: none;
   padding: 0;
 }
-
+.about img{
+  width: 530px;
+  height: 500px;
+}
 .about .content ul li {
   padding: 0 0 8px 26px;
   position: relative;
