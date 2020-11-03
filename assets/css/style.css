@@ -32,8 +32,17 @@ a {
     font-size: 24px !important;
     position: absolute;
   }
+  #team .col-lg-3 {
+    margin-left: 8%;
+  }
+
 }
 
+@media only screen and (max-width: 768px){
+  #team .col-lg-3 {
+    margin-left: 21%;
+  }
+}
 
 @keyframes blink { 
    50% { border-color: #c2c2c2; } 
@@ -967,6 +976,13 @@ section {
   color: #151515;
   margin-left: 50px;
 }
+.member-img img{
+  width: 278px;
+}
+.luminous h4{
+  margin-top: -30px;
+}
+
 
 .counts .content .count-box p {
   padding: 15px 0 0 0;
