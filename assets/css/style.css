@@ -43,6 +43,11 @@ a {
     margin-left: 21%;
   }
 }
+@media only screen and (max-width: 768px){
+  #team .col-lg-3 {
+    margin-left: 4%;
+  }
+}
 
 @keyframes blink { 
    50% { border-color: #c2c2c2; } 
