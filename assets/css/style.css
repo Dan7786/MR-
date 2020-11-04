@@ -983,11 +983,8 @@ section {
 }
 .member-img img{
   width: 278px;
+  height: 302px;
 }
-.luminous h4{
-  margin-top: -30px;
-}
-
 
 .counts .content .count-box p {
   padding: 15px 0 0 0;
@@ -1352,7 +1349,13 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ffcd6b;
+  background: #e30a17;
+ transform: translateY(-7px);
+  -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.2);
+  transition-timing-function: ease;
+  transition: .3s;
 }
 
 @-webkit-keyframes animate-loading {
